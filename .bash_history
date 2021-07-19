@@ -1,15 +1,3 @@
-sort /etc/passwd
-sort /etc/passwd | head -n 15
-man sort
-cut -f3 -d : /etc/passwd | sort -g
-man sort
-cut -f3 -d : /etc/passwd | sort -g
-cut -f3 -d : /etc/passwd | sort -g | tail -n 1
-cut -f3 -d : /etc/passwd | sort -r -g
-sort -r /etc/passwd
-colrm
-man colrm
-man rev
 rev /etc/passwd
 grep "j" /etc/passwd
 grep "a" /etc/passwd
@@ -1997,4 +1985,16 @@ nano &
 fg
 jobs
 fg
+exit
+mkdir ~/szakaszzaro
+touch ~/szakaszzaro/szakaszzaro_feladat
+echo "Hello" > ~/szakaszzaro/szakaszzaro_feladat 
+cat szakaszzaro/szakaszzaro_feladat 
+mv ~/szakaszzaro/szakaszzaro_feladat ~/szakaszzaro/feladat
+cp ~/szakaszzaro/feladat ~/szakaszzaro/feladat2
+rm ~/szakaszzaro/feladat2 
+cat ~/szakaszzaro/feladat 
+grep "NetworkManager" /var/log/syslog
+grep "NetworkManager" /var/log/syslog >> ~/szakaszzaro/feladat 
+less ~/szakaszzaro/feladat 
 exit
