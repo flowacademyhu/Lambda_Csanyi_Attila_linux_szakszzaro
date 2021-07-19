@@ -1,0 +1,1 @@
+# Lambda_Csanyi_Attila_linux_szakszzaro
